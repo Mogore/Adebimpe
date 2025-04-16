@@ -1,0 +1,294 @@
+body{
+    padding: 1vh;
+    margin: 1vh;
+    margin-bottom: 0px;
+    background-color: #101010;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header{
+    position:relative;
+    width: 100%;
+    }
+
+    .logo{
+        color: yellow;
+        font-size: 4vh;
+        font-weight: bold;
+        padding-left: 4vh;
+    }
+
+nav{
+    display: flex;
+    background-color: #0f0f0fcb;
+    margin: auto;
+    padding: 1vh;
+    padding-top: 0vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1vh 2vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+}
+
+#landingPage{
+    display:flex;
+    width: 100%;
+    margin: 2vh auto;
+    padding: 1vh;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+#landingPage p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.name{
+    font-size: 8vh;
+}
+
+.smm{
+    font-size: 5vh;
+}
+
+.leftContent{
+flex: 1;
+background-color: rgba(255, 255, 0, 0);
+text-align: center;
+margin-right: 1vh;
+}
+
+.lowerLeftContent{
+    display: inline-block;
+    
+}
+
+.lowerLeftContent button{
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 2vh;
+    padding-left: 5vh;
+    outline: 0.1vh blue solid;
+    background-color: rgba(109, 107, 107, 0.082);
+    border-radius: 5vh;
+    padding-right: 5vh;
+    color: #f4f4f4;
+    margin: 1.5vh;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.lowerLeftContent button:hover{
+    cursor: pointer;
+    padding: 2vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
+    border-radius: 5vh;
+    background-color: rgba(253, 241, 67, 0.288);
+}
+
+.lowerLeftContent a{
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+.bg{
+    background-color: rgba(255, 0, 0, 0);
+    flex: 1;
+
+}
+
+.bg img{
+border-radius: 50%;
+outline: 2px solid blue;
+animation-name: img_glow;
+animation-timing-function: ease-in-out;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+
+.bg img:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+#aboutMe div{
+background-color: rgba(119, 128, 0, 0);
+font-family: sans-serif;
+outline: 2px solid blue;
+font-weight: bold;
+font-size: 3vh;
+color: #f4f4f4;
+margin: 2vh auto;
+width: 45%;
+padding: 10vh;
+}
+
+#aboutMe p{
+    color: #ffff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.abMeH{
+font-size: 8vh;
+}
+
+#experience{
+    display: flex;
+    padding: 2vh;
+    margin: 1vh auto;
+    width: 80%;
+}
+
+.exptext{
+    font-size: 8vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.ex1{
+    flex: 1;
+    margin: 1vh;
+    outline: 2px solid blue;
+    padding: 4vh;
+    width: 30%;
+    color: #ffff;
+    background-color: rgba(119, 128, 0, 0);
+}
+
+.ex1 ul li{
+    list-style: none;
+    margin-left: -50px;
+    font-size: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.ex1 p{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ex2{
+    flex: 1;
+    margin: 1vh;
+    outline: 2px solid blue;
+    padding: 4vh;
+    width: 30%;
+    color: #ffff;
+    background-color: rgba(119, 128, 0, 0);
+
+}
+
+.ex2 ul li{
+    list-style: none;
+    margin-left: -50px;
+    font-size: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.ex2 p{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#skills{
+
+}
+
+.skP{
+    font-size: 8vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffff;
+}
+
+
+.skillsDiv{
+    display: flex;
+    width: 90%;
+    margin: 0% auto;
+    background-color: rgba(128, 255, 0, 0);
+    align-items: center;
+    padding: 2vh;
+    justify-content: space-between;
+}
+
+.skillsDiv div{
+    width:  20%;
+    margin: 2vh;
+    height: 20vh;
+    color: #ffff;
+    align-items: center;
+    outline: 0.5vh solid blue;
+    padding: 2vh;
+}
+
+.skillsDiv div p{
+    text-align: center;
+    margin-top: 7vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+footer{
+    background-color: rgba(255, 255, 0, 0.034);
+    margin-bottom: 2vh;
+    padding: 2vh;
+}
+
+footer p{
+color: #ffff;
+}
+
+.footDiv ul{
+    display: flex;
+}
+
+.footDiv ul li{
+    margin-left: 3vh;
+    margin-right: 3vh;
+    color: #ffff;
+}
+
+/*animations*/
+
+@keyframes img_glow {
+    0% {
+        border: 2px solid yellow;
+    }
+
+    50% {
+        border: 2px solid blue;
+    }
+
+    100% {
+        border: 2px solid yellow;
+    }
+
+}
